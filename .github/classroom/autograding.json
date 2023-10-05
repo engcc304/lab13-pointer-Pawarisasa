@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test number set1",
+      "setup": "g++ -o a.out ./Lab/Lab13-Pointer.cpp",
+      "run": "./a.out",
+      "input": "10\r\n20\r\n",
+      "output": "Before swap (num1 & num2) : 10, 20\r\nAfter swap (num1 & num2) : 20, 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test number set 2",
+      "setup": "g++ -o a.out ./Lab/Lab13-Pointer.cpp",
+      "run": "./a.out",
+      "input": "34\r\n14\r\n",
+      "output": "Before swap (num1 & num2) : 34, 14\r\nAfter swap (num1 & num2) : 14, 34",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
